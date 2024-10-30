@@ -16,6 +16,9 @@ body {
 .flex-nav {
     flex: 20%;
     float: left;
+    position: sticky;
+    height: 100vh;
+    top: 0px;
     }
 .flex-main {
     flex: 80%;
@@ -67,7 +70,7 @@ nav {
     height: 100vb;
     padding: 10;
     position: sticky;
-    top: 10;
+    top: 0;
 }
 nav ul {
     list-style: none;
