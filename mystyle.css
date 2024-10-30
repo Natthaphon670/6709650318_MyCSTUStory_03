@@ -6,12 +6,19 @@ body {
     background-image: url(https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-minimal-background-design_84443-2780.jpg?w=1380&t=st=1725182835~exp=1725183435~hmac=4cf3b316595335f03828e31afcec7df0d9a4c3b58d4bcf07e530c7a58a8e9772);
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: DodgerBlue;
+@media (max-width: 800px) {
+    .flex-container {
+    flex-direction: column;
     }
-     
+}
+.flex-nav {
+    padding: 10px;
+    flex: 20%;
+    }
+.flex-main {
+    padding: 10px;
+    flex: 80%;
+    }
 header {
     background-color: #1d3766;
     color: #9dbcda;
