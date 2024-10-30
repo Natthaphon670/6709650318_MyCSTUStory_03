@@ -26,6 +26,7 @@ body {
         flex: 20%;
         float: none;
         height: 50%;
+        position: relative;
         top: 0px;
     }
  }
