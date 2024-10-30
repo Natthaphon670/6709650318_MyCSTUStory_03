@@ -10,48 +10,50 @@
         <h1> Welcome to My CSTU story</h1>
     
     </header>
-    <nav class=>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="myjourney.html">My Journey</a></li>
-            <li><a href="myfuture.html">My Future</a></li>
-        </ul>
-    </nav>
+    <div class="flex-container">
+         <nav class="flex-nav">
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="myjourney.html">My Journey</a></li>
+             <li><a href="myfuture.html">My Future</a></li>
+            </ul>
+         </nav>
     
-    <main class= >
-        <table align="center" border="0" cellspacing="0" cellpadding="10" width=”100%”>
-            <tr>
-                <td text align="center">
-                    <p><strong><i>นี้คือเว็บไซค์ของ</i></strong></p>
-                    <p><i>นาย ณัฐพล เพ็ชระ</i></p>
-                    <p><strong>คณะ:</strong>วิทยาศาสตร์และเทคโนโลยี</p>
-                    <p><strong>สาขา:</strong>วิทยาการคอมพิวเตอร์</p>
-                    <p><strong>รหัสนักศึกษา:</strong>6709650318</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
+         <main class= "flex-main">
+            <table align="center" border="0" cellspacing="0" cellpadding="10" width=”100%”>
+                <tr>
+                     <td text align="center">
+                        <p><strong><i>นี้คือเว็บไซค์ของ</i></strong></p>
+                        <p><i>นาย ณัฐพล เพ็ชระ</i></p>
+                        <p><strong>คณะ:</strong>วิทยาศาสตร์และเทคโนโลยี</p>
+                        <p><strong>สาขา:</strong>วิทยาการคอมพิวเตอร์</p>
+                        <p><strong>รหัสนักศึกษา:</strong>6709650318</p>
+                     </td>
+                </tr>
+                 <tr>
+                    <td align="center">
                         <div class="media-container">
                         <img src="resources/mypic.jpg" alt="Thumbnail Image" width="325" height="400">
-                    </div>    
-            </td> 
-            </tr>
-            <tr>
-                <td>
-                    <div class="video-container">
+                        </div>    
+                    </td> 
+                </tr>
+                <tr>
+                     <td>
+                        <div class="video-container">
                         <video src="resources/myvideo.mp4" controls onclick="openFullscreen(this.src)"></video>
-                    </div>
-            </tr>
-        </table>  
-        <script>
-             function openFullscreen(src) {
-            const videoElement = document.getElementById("fullscreen-video-element");
-            videoElement.src = src;
-            document.getElementById("fullscreen-video").style.display = "block";
-            videoElement.play();
-        }
-        </script>
-    </main>
+                        </div>
+               </tr>
+            </table>  
+            <script>
+                function openFullscreen(src) {
+                const videoElement = document.getElementById("fullscreen-video-element");
+                videoElement.src = src;
+                document.getElementById("fullscreen-video").style.display = "block";
+                videoElement.play();
+         }
+            </script>
+        </main>
+    </div>
     
     <footer>
         @Email:Natthaphon.phe@dome.tu.ac.th
