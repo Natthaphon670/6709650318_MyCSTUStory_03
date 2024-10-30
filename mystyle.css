@@ -8,11 +8,6 @@ body {
 .flex-container {
     display: flex; flex-direction: row;
     }
-@media (max-width: 800px) {
-    .flex-container {
-    flex-direction: column;
-    }
-}
 .flex-nav {
     flex: 20%;
     float: left;
@@ -23,6 +18,17 @@ body {
 .flex-main {
     flex: 80%;
     }
+@media (max-width: 800px) {
+    .flex-container {
+    flex-direction: column;
+    }
+    .flex-nav {
+        flex: 20%;
+        float: none;
+        height: 50%;
+        top: 0px;
+    }
+ }
 header {
     background-color: #1d3766;
     color: #9dbcda;
